@@ -1,0 +1,10 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "module": "CommonJS"
+    },
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
